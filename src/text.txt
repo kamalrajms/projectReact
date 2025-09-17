@@ -37,3 +37,25 @@
         Props method
         destructuring props
 
+ ## useState
+
+    Data that changes over a time (eg.  user input , API response)
+
+    syntax
+        const [start variable,setStateVariable]=usestate(initial value)
+
+        start variable=current value
+        setStateVariable= updating current variable
+        initial value= starting value
+
+##conditional rendering  
+
+    ## ternary operator
+    ## logical operator
+
+## list rendering 
+     rendering multiple items dynamically useing map(),reduce(),find()....
+
+
+
+

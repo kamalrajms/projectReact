@@ -1,22 +1,18 @@
-import React from "react";
-import Greeting from "./components/Greeting";
-import Hello from "./components/Hello";
+import React, { useState } from "react";
+import UsestateHook from "./component/UsestateHook";
+import ConditionalRender from "./component/ConditionalRender";
+import ListRendering from "./component/ListRendering";
+import Darkmode from "./component/Darkmode";
 
 export default function App() {
-  const name = "Dinesh";
-  const age = 20;
-
+  const [log, setLog] = useState(false);
   return (
     <div>
-      <Greeting name={name} age={age}/>
-      <Hello />
-      <h1 style={{ backgroundColor: "pink", padding: "100px" }}>
-        Hello everyone
-      </h1>
-
-      <Hello />
-
-      {/* <p>my name is {name}</p> */}
+      {/* {log ? <UsestateHook /> : <ConditionalRender />} */}
+      <ConditionalRender />
+      <UsestateHook />
+      <ListRendering />
+      <Darkmode />
     </div>
   );
 }
