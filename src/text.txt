@@ -1,5 +1,3 @@
-16/09/2025
-
 ## react intro
 
     What is React?
@@ -48,13 +46,25 @@
         setStateVariable= updating current variable
         initial value= starting value
 
-##conditional rendering  
+## conditional rendering  
 
     ## ternary operator
     ## logical operator
 
 ## list rendering 
      rendering multiple items dynamically useing map(),reduce(),find()....
+
+## useEffect()
+
+    useEffect is a hook ,that lets you perform sidde effect in functional component.
+    side effect are tasks that happend outside the normal react rendering process
+
+        fetching data from API
+        Updating the brouser DOM manually
+
+    useEffect(()=>{
+        //code
+    },[dependencies 1,dependencies 2......]) 
 
 
 
